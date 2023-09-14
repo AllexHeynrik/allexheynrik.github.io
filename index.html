@@ -4,45 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-<h1 id="inicio">Allex Heynrik</h1>
-<a href="foto.jpg" target="_blank"><img  src="foto.jpg"width="200px" alt="Foto de Allex Heynrik"></a> 
-<h2>Olá! Eu sou o Allex e aqui você pode saber um pouco mais sobre quem sou e como trabalho.</h2>
-<ol>
-    <p><a href="#quem sou">Quem sou</p></p>
-    <p><a href="#habilidades">Habilidades</a></p>
-</ol>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+         body{
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+            font-family: 'montserrat' , sans-serif;
+        }
+        .header{
+            
+            padding: 1%;
+            margin: 0px;
+            background-color: rgb(88, 60, 40);
+            text-align: center;
+            color: rgb(243, 238, 231);
+            font-size: 15px;
+         }
+       .inicio{
+        text-align: center;
+        color:rgb(36, 26, 18);
+         }
+       img{
+        border-radius: 500px;
+       }
+       .sumario a {
+        text-decoration: none;
+        color: rgb(88, 60, 40);
+        
+       }
+       .sumario div {
+       
+        display: inline-block;
+        padding: 12px 20px;
+        font-size: 30px;
+        border-radius: 25px;
+        list-style-type: none;
+       }
+       .sumario{
+        text-align: center;
+        
+       }
+       .botaoquemsou{
+        border: 5px solid rgb(88, 60, 40);
+       }
+       .botaohabilidades{
+        border: 5px solid rgb(88, 60, 40);
+       }
 
-<p id="quem sou">Nascido e residente em São Paulo - SP Comecei a trabalhar com filmagem e edição de vídeos aos 16 anos, mas sempre tive curiosidade sobre o mercado de tecnologia e desenvolvimento.<br>
-    Hoje, aos 28 anos, dei o primeiro passo para me tornar um desenvolvedor com o apoio da <a target="_blank"href="https://www.betrybe.com/"><strong>Trybe</strong></a>. </p>
-<br>
-
-<h2 id="habilidades">Mesmo em busca de uma transição de carreia, sou muito grato ao mercado de vídeo que ensinou muita coisa! Como:<h2>
-<ol>
-<h4><i>Trabalho em equipe</i></h4>
-<h4>Organização</h4>
-<h4>Criatividade</h4>
-<h4>Gestão de Projetos</h4>
-</ol>
-<br>
-<p><a href="#inicio"><i>Início</i></a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
+       
+        </style>
 </head>
 <body>
+    <!-- seção 1 -->
+    <div>
+        <h1 id="inicio"class="inicio">Allex Heynrik</h1>
+        <div class="header" >
+            <a href="foto.jpg" target="_blank"><img  id="foto" src="foto.jpg"width="200px" alt="Foto de Allex Heynrik"></a> 
+            <h2 id="intro">Olá! Eu sou o Allex e aqui você pode saber um pouco mais sobre quem sou e como trabalho.</h2>
+        </div>
+    </div> 
+    <!-- seção 2 -->
+    <div class="sumario">
+        <ul>
+            <div class="botaoquemsou">
+                <a href="#quem sou">
+                    <li>Quem sou</li>
+                </a>
+            </div>
+            <div class="botaohabilidades">
+                <a href="#habilidades">
+                    <li>Habilidades</li>
+                </a>
+            </div>
+            <div class="botaohabilidades">
+                <a href="#habilidades">
+                    <li>Personalidade</li>
+                </a>
+            </div>
+        </ul>
+       
+
+    </div>
     
+    <!-- <div class="sumario">
+        <ul>
+            <div class="botaoquemsou">
+                <a href="#quem sou"><li>Quem sou</li>
+                </a>
+            </div>
+            <div class="botao habilidades">
+                <a href="#habilidades">
+                    <li>Habilidades</li>
+                </a>
+            </div>
+        </ul>
+    </div> -->
+    <div>
+        <p id="quem sou">Nascido e residente em São Paulo - SP Comecei a trabalhar com filmagem e edição de vídeos aos 16 anos, mas sempre tive curiosidade sobre o mercado de tecnologia e desenvolvimento.<br>
+            Hoje, aos 28 anos, dei o primeiro passo para me tornar um desenvolvedor com o apoio da <a target="_blank"href="https://www.betrybe.com/"><strong>Trybe</strong></a>. </p>
+        </div>
+    <DIV>
+            <h2 id="habilidades">Mesmo em busca de uma transição de carreia, sou muito grato ao mercado de vídeo que ensinou muita coisa! Como:<h2>
+                <ul>
+                    <li><i>Trabalho em equipe</i></li>
+                    <li>Organização</li>
+                    <li>Criatividade</li>
+                    <li>Gestão de Projetos</li>
+                </ul>
+    </div>
+            <p><a href="#inicio"><i>Início</i></a></p>
+        
 </body>
 </html>
